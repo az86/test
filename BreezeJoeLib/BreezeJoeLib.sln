@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BreezeJoeLib", "BreezeJoeLib\BreezeJoeLib.vcxproj", "{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCode", "TestCode\TestCode.vcxproj", "{D6924266-5725-40CF-9256-4A55E29DD138}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC} = {5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}
+		{2A673475-D56D-4562-B736-4BD6F89F858A} = {2A673475-D56D-4562-B736-4BD6F89F858A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Az", "Az\Az.vcxproj", "{2A673475-D56D-4562-B736-4BD6F89F858A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dicom", "Dicom", "{186D6E77-0F74-4001-95EE-F6D60DBFDE17}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DicomLib", "DicomLib\DicomLib.vcxproj", "{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestReadDcm", "TestReadDcm\TestReadDcm.vcxproj", "{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}.Debug|Win32.Build.0 = Debug|Win32
+		{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}.Release|Win32.ActiveCfg = Release|Win32
+		{5E8BE713-5CBE-4A31-932B-2422FD6CD8EC}.Release|Win32.Build.0 = Release|Win32
+		{D6924266-5725-40CF-9256-4A55E29DD138}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6924266-5725-40CF-9256-4A55E29DD138}.Debug|Win32.Build.0 = Debug|Win32
+		{D6924266-5725-40CF-9256-4A55E29DD138}.Release|Win32.ActiveCfg = Release|Win32
+		{D6924266-5725-40CF-9256-4A55E29DD138}.Release|Win32.Build.0 = Release|Win32
+		{2A673475-D56D-4562-B736-4BD6F89F858A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A673475-D56D-4562-B736-4BD6F89F858A}.Debug|Win32.Build.0 = Debug|Win32
+		{2A673475-D56D-4562-B736-4BD6F89F858A}.Release|Win32.ActiveCfg = Release|Win32
+		{2A673475-D56D-4562-B736-4BD6F89F858A}.Release|Win32.Build.0 = Release|Win32
+		{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE}.Debug|Win32.Build.0 = Debug|Win32
+		{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE}.Release|Win32.ActiveCfg = Release|Win32
+		{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE}.Release|Win32.Build.0 = Release|Win32
+		{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893}.Debug|Win32.Build.0 = Debug|Win32
+		{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893}.Release|Win32.ActiveCfg = Release|Win32
+		{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D4A703F-AAB3-4530-9677-1A3BF62AE3FE} = {186D6E77-0F74-4001-95EE-F6D60DBFDE17}
+		{DB7A2F2D-10BF-4805-8F70-FF1B9B48A893} = {186D6E77-0F74-4001-95EE-F6D60DBFDE17}
+	EndGlobalSection
+EndGlobal
